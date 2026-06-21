@@ -16,6 +16,17 @@ body{
     align-items: center;
 }
 
+.contact-info{
+    position:fixed;
+    bottom: 10px;
+    left: 10px;
+    text-align: left;
+    font-size: 14px;
+}
+.contact-info p{
+    margin:2px 0;
+}
+
 /* Heading */
 h1{
     color: rgb(27, 19, 88);
