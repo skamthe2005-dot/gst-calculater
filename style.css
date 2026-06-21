@@ -1,0 +1,75 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #3c85c6, #95ced1);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Heading */
+h1{
+    color: rgb(27, 19, 88);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Form Container Effect */
+body > label,
+body > input,
+body > button{
+    margin: 5px;
+}
+
+/* Labels */
+label{
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    width: 250px;
+}
+
+/* Input Fields */
+input{
+    width: 250px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Button */
+button{
+    width: 250px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Total Amount Box */
+#total{
+    background-color: #f0f8ff;
+    font-weight: bold;
+}
